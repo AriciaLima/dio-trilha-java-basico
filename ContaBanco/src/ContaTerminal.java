@@ -1,7 +1,11 @@
 import java.util.Scanner;
+import java.util.Locale;
 
 public class ContaTerminal {
     public static void main(String[] args) {
+        // Definir o local padrão para os EUA
+        Locale.setDefault(Locale.US);
+
         Scanner scanner = new Scanner(System.in);
 
         // Solicitar e ler os dados da conta bancária
